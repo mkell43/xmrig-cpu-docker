@@ -2,7 +2,7 @@
 # ex: docker run mkell43/xmrig-cpu -o mine.xmrpool.net:3333 -u 4Adq5EZWCJ2jh4kttRSoa3KegN3K3KVnkZdATgd1XQcnZt7cJmggXHkjXqrT3anyZ22j7DEE74GkbVcQFyH2nNiC3c7HGvC -p x
 
 FROM          ubuntu:16.04
-run           apt-get update && apt-get install -y software-properties-common
+RUN           apt-get update && apt-get install -y software-properties-common
 RUN           add-apt-repository -y ppa:jonathonf/gcc-7.1
 RUN           apt-get update
 RUN           apt-get install -y git build-essential cmake libuv1-dev libmicrohttpd-dev gcc-7 g++-7
