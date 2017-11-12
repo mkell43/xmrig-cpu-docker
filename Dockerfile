@@ -1,4 +1,4 @@
-# usage: docker run mkell43/xmrig-cpu -o miningpool.url:port -u username -p password
+# usage: docker run mkell43/xmrig-cpu:alpine-latest -o miningpool.url:port -u username -p password
 
 FROM          alpine:latest
 
