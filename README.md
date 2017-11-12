@@ -1,9 +1,9 @@
-# xmrig-docker
+# xmrig-cpu-docker
 ----
 A docker container to easily deploy [xmrig](https://github.com/xmrig/xmrig).
 
 ## Usage
-`docker run mkell43/xmrig -o miningpool.url:port -u username -p password`
+`docker run mkell43/xmrig-cpu -o miningpool.url:port -u username -p password`
 
 * `-o` - Your mining pool's url and port. *check with your mining pool for how to set this*
 * `-u` - Is your username.  *check with your mining pool for how to set this*
