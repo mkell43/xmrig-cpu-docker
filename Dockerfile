@@ -1,5 +1,5 @@
-# usage: docker run mkell43/xmrig -o stratum+tcp:miningpool.url:port -u username -p password
-# ex: docker run mkell43/xmrig -o stratum+tcp://mine.xmrpool.net:3333 -u 4Adq5EZWCJ2jh4kttRSoa3KegN3K3KVnkZdATgd1XQcnZt7cJmggXHkjXqrT3anyZ22j7DEE74GkbVcQFyH2nNiC3c7HGvC -p x
+# usage: docker run mkell43/xmrig -o miningpool.url:port -u username -p password
+# ex: docker run mkell43/xmrig -o mine.xmrpool.net:3333 -u 4Adq5EZWCJ2jh4kttRSoa3KegN3K3KVnkZdATgd1XQcnZt7cJmggXHkjXqrT3anyZ22j7DEE74GkbVcQFyH2nNiC3c7HGvC -p x
 
 FROM          ubuntu:16.04
 run           apt-get update && apt-get install -y software-properties-common
