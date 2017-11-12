@@ -22,7 +22,7 @@ The list of options to set for xmrig is insaaaaaannnnnneeeeeeeeee check it out i
 
 \** The link used was was an affiliate link.  You can go there without the affiliate code via this link. -> [MinerGate](https://minergate.com/)
 
-## Don't Forget The Devs...
+## Don't Forget The Xmrig Devs...
 
 Send them some donations for their hard work.
 
