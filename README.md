@@ -4,9 +4,9 @@ A docker container to easily deploy [xmrig](https://github.com/xmrig/xmrig).
 
 ## Tags
 
-`latest` - Uses known, tested, Alpine image and xmrig versions.
-`alpine-latest` - Uses the latest Alpine image.
-`xmrig-latest` - Uses the latest version of xmrig from the master branch.
+* `latest` - Uses known, tested, Alpine image and xmrig versions.
+* `alpine-latest` - Uses the latest Alpine image.
+* `xmrig-latest` - Uses the latest version of xmrig from the master branch.
 
 ## Usage
 `docker run mkell43/xmrig-cpu -o miningpool.url:port -u username -p password`
