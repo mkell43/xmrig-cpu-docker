@@ -1,6 +1,6 @@
 # usage: docker run mkell43/xmrig-cpu -o miningpool.url:port -u username -p password
 
-FROM          alpine:3.6
+FROM          alpine:latest
 
 ENV           XMRIG_DIR /xmrig-cpu
 ENV           XMRIG_BUILD_DIR $XMRIG_DIR/build
